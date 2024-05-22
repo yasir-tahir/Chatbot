@@ -141,33 +141,3 @@ function sendMessage(){
 
 
 
-// // const userInput = document.getElementById('user-input');
-// // const sendButton = document.getElementById('send-button');
-// // const list = document.getElementById('list');
-
-// // sendButton.addEventListener('click', () => {
-// // 	const userMessage = userInput.value;
-// // 	chatLog.innerHTML += `<p>You: ${userMessage}</p>`;
-// // 	userInput.value = '';
-
-// // 	// Add chatbot response logic here
-// // 	const chatbotResponse = `Chatbot: Hi! How can I help you today?`;
-// // 	list.innerHTML += `<p>${chatbotResponse}</p>`;
-// // });
-
-
-
-
-// const userInput = document.getElementById('user-input');
-// const sendButton = document.getElementById('send-button');
-// const chatLog = document.getElementById('chat-log');
-
-// sendButton.addEventListener('click', () => {
-// 	const userMessage = userInput.value;
-// 	chatLog.innerHTML += `<p>You: ${userMessage}</p>`;
-// 	userInput.value = '';
-
-// 	// Add chatbot response logic here
-// 	const chatbotResponse = `Chatbot: Hi! How can I help you today?`;
-// 	chatLog.innerHTML += `<p>${chatbotResponse}</p>`;
-// });
