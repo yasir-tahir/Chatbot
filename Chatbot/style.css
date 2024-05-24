@@ -20,17 +20,18 @@ body {
 	font-style: italic;
 	
 	
+	
 }
 
 #user-input {
-	width: 75%;
+	width: 81.4%;
 	padding: 10px;
 	font-size: 18px;
 	border: 1px solid #ccc;
 }
 
 #send-button {
-	width: 23%;
+	width: 15%;
 	padding: 10px;
 	font-size: 18px;
 	background-color: #4CAF50;
@@ -39,5 +40,28 @@ body {
 	cursor: pointer;
 }
 
+.question>li{
+	margin-left: auto;
+	background-color: rgb(47, 100, 236);
+	border-radius: 10px 0px 5px 0px;
+	width: 23%;
+	list-style: none;
+	text-align:center;
+}
 
+.answer>li{
+	margin-right: auto;
+	width: 100%;
+	list-style: none;
+	background-color: #4CAF50;
+	border-radius: 10px 0px 5px 0px;
+	height: 100%;
+	width: 100%;	
+	
+}
+
+
+.container{
+	width: 50%;
+}
 
