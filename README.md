@@ -1,1 +1,1 @@
-https://yasir-smit-chatbot.netlify.app/
+SMIT Course information Chatbot with Responsive
