@@ -1,11 +1,9 @@
 
-
-h1{
+ h1 {
 	font-size: 48px;
 	color: rgb(47, 100, 236);
-	
-
 }
+
 body {
 	font-family: Arial, sans-serif;
 	background-color: #f0f0f0;
@@ -18,9 +16,6 @@ body {
 	border: 1px solid #ddd;
 	margin-bottom: 20px;
 	font-style: italic;
-	
-	
-	
 }
 
 #user-input {
@@ -40,28 +35,92 @@ body {
 	cursor: pointer;
 }
 
-.question>li{
+.question > li {
 	margin-left: auto;
 	background-color: rgb(47, 100, 236);
 	border-radius: 10px 0px 5px 0px;
 	width: 23%;
 	list-style: none;
-	text-align:center;
+	text-align: left;
+	padding: 5px;
+	font-size: 18px;
 }
 
-.answer>li{
+.answer > li {
 	margin-right: auto;
-	width: 100%;
 	list-style: none;
 	background-color: #4CAF50;
 	border-radius: 10px 0px 5px 0px;
 	height: 100%;
-	width: 100%;	
-	
+	width: 70%;
+	padding: 5px;
+	font-size: 18px;
+}
+
+.container {
+	width: 60%;
+	margin: auto;
 }
 
 
-.container{
-	width: 50%;
+@media (max-width: 1200px) {
+	.container {
+		width: 80%;
+	}
+
+	#user-input {
+		width: 75%;
+	}
+
+	#send-button {
+		width: 20%;
+	}
 }
 
+@media (max-width: 768px) {
+	h1 {
+		font-size: 36px;
+	}
+
+	.container {
+		width: 90%;
+	}
+
+	#user-input {
+		width: 70%;
+	}
+
+	#send-button {
+		width: 25%;
+	}
+
+	.question > li, .answer > li {
+		width: 90%;
+		margin: 10px 0;
+	}
+}
+
+@media (max-width: 480px) {
+	h1 {
+		font-size: 28px;
+	}
+
+	.container {
+		width: 100%;
+		padding: 10px;
+	}
+
+	#user-input {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	#send-button {
+		width: 100%;
+	}
+
+	.question > li, .answer > li {
+		width: 100%;
+		margin: 5px 0;
+	}
+}
